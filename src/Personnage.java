@@ -8,6 +8,7 @@ public class Personnage {
     }
 
     public void deplacer(char direction, Carte carte) {
+
         if (direction == 'N') {
             if (y > 0 && carte.getCase(x, y - 1) == ' ')
                 y--;
